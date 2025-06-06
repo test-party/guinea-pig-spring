@@ -21,4 +21,11 @@ public class GuineaPigSpringApplication {
         model.addAttribute("message", "This is a message from the controller!");
         return "hello";
     }
+
+    @GetMapping("/link-name")
+    public String linkName(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("message", "This is a message from the controller!");
+        return "link-name";
+    }
 }
