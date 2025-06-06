@@ -10,7 +10,7 @@
     <h1>Google Links</h1>
 
     <c:forEach var="i" begin="1" end="5">
-        <a href="https://www.google.com" target="_blank">Visit Google #${i}</a><br/>
+        <a href="https://www.google.com" target="_blank"></a><br/>
     </c:forEach>
 </body>
 </html>
