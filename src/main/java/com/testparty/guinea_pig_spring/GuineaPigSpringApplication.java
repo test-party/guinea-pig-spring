@@ -56,4 +56,11 @@ public class GuineaPigSpringApplication {
         model.addAttribute("message", "This is a message from the controller!");
         return "neurodiversity/pronunciation";
     }
+
+    @GetMapping("/color-contrast")
+    public String colorContrast(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("message", "This is a message from the controller!");
+        return "color-contrast";
+    }
 }
