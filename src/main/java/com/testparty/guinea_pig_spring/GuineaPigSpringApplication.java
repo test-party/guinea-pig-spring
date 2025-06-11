@@ -29,6 +29,13 @@ public class GuineaPigSpringApplication {
         return "link-name";
     }
 
+    @GetMapping("/region")
+    public String region(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("message", "This is a message from the controller!");
+        return "region";
+    }
+
     @GetMapping("/aria-prohibited-attr")
     public String ariaProhibited(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
         model.addAttribute("name", name);
