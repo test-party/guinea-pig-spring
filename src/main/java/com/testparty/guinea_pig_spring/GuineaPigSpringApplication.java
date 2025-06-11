@@ -35,4 +35,11 @@ public class GuineaPigSpringApplication {
         model.addAttribute("message", "This is a message from the controller!");
         return "aria-prohibited-attr";
     }
+
+    @GetMapping("/neurodiversity/abbreviations")
+    public String abbreviations(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("message", "This is a message from the controller!");
+        return "neurodiversity/abbreviations";
+    }
 }
