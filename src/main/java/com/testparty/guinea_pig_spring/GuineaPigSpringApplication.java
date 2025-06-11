@@ -28,4 +28,11 @@ public class GuineaPigSpringApplication {
         model.addAttribute("message", "This is a message from the controller!");
         return "link-name";
     }
+
+    @GetMapping("/aria-prohibited-attr")
+    public String ariaProhibited(@RequestParam(value = "name", defaultValue = "World") String name, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("message", "This is a message from the controller!");
+        return "aria-prohibited-attr";
+    }
 }
