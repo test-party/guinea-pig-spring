@@ -6,7 +6,7 @@
     <title>Pronunciation</title>
 </head>
 <body>
-    <!-- http://localhost:8080/neurodiversity-ruleset/pronunciation -->
+    <!-- http://localhost:8080/neurodiversity/pronunciation -->
     <main class="flex min-h-screen grid grid-cols-3 gap-4 p-24">
         <p>I read the book today, it's amazing!</p>
         <p>This text is working well , no remediations needed</p>
