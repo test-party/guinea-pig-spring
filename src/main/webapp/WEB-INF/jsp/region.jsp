@@ -12,6 +12,10 @@
             <div role="main">
                 Main Role Div
             </div>
+
+            <div role="main">
+                Main Role Div
+            </div>
     </div>
 </body>
 </html>
