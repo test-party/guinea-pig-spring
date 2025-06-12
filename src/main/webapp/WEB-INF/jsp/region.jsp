@@ -10,9 +10,9 @@
 <body>
     <!-- http://localhost:8080/region -->
     <div>
-        <main>
-            <p>Main content</p>
-        </main>
+        <div>
+            <p>This page has no landmark region.</p>
+        </div>
     </div>
 </body>
 
