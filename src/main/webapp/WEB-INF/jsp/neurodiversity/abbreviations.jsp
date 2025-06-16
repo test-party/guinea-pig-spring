@@ -6,6 +6,7 @@
     <title>Abbreviations</title>
 </head>
 <body>
+    <!-- http://localhost:8080/neurodiversity/abbreviations -->
     <main>
         <p>The FBI is an american agency</p>
         <p>The FMI is an american agency</p>
