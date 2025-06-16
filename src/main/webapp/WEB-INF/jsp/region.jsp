@@ -11,7 +11,9 @@
     <!-- http://localhost:8080/region -->
     <div>
         <div>
-            <p>This page has no landmark region.</p>
+            <main>
+                <p>This page has no landmark region.</p>
+            </main>
         </div>
     </div>
 </body>
